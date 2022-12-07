@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 namespace App\MatchMaker\Player;
 
+spl_autoload_register();
+
 class Player extends AbstractPlayer
 {
     public function getName(): string
